@@ -27,13 +27,21 @@ Useful Tools (with download links):
 Install the following libraries before running the notebook:
 
 pip install numpy
+
 pip install pandas
+
 pip install matplotlib
+
 pip install seaborn
+
 pip install scipy
+
 pip install scikit-learn
+
 pip install neurokit2
+
 pip install eli5
+
 pip install wfdb
 
 ───────────────────────────────────────────
