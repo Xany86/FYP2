@@ -5,8 +5,11 @@ Hierarchical Clustering for ECG with XAI
 This project demonstrates how hierarchical clustering can be applied to ECG signals, with the integration of Explainable Artificial Intelligence (XAI) techniques to interpret clustering outcomes.
 
 ───────────────────────────────────────────
+
 1. TOOLS & ENVIRONMENT
+
 ───────────────────────────────────────────
+
 - **Python Version**: 3.9 or later
 - **Recommended IDE**: Jupyter Notebook
 - **Operating System**: Windows / Linux / macOS
@@ -16,8 +19,11 @@ Useful Tools (with download links):
 - Jupyter Notebook (standalone) → https://jupyter.org/install
 
 ───────────────────────────────────────────
+
 2. REQUIRED PYTHON LIBRARIES
+
 ───────────────────────────────────────────
+
 Install the following libraries before running the notebook:
 
 pip install numpy
@@ -29,11 +35,14 @@ pip install scikit-learn
 pip install neurokit2
 pip install eli5
 pip install wfdb
-───────────────────────────────────────────
-3. DATASET INFORMATION
-───────────────────────────────────────────
-Dataset Used:
 
+───────────────────────────────────────────
+
+3. DATASET INFORMATION
+
+───────────────────────────────────────────
+
+Dataset Used:
 MIT-BIH Arrhythmia Database
 
 Download from PhysioNet:
@@ -47,10 +56,12 @@ Steps:
 4) Ensure that .dat, .hea, and .atr files are included for the records used.
 
 ───────────────────────────────────────────
-4. HOW TO RUN THE NOTEBOOK
-───────────────────────────────────────────
-Steps:
 
+4. HOW TO RUN THE NOTEBOOK
+
+───────────────────────────────────────────
+
+Steps:
 1) Open Jupyter Notebook.
 
 2) Load the file:
@@ -65,8 +76,11 @@ The notebook will:
 -Explain results using ELI5 for model interpretability.
 
 ───────────────────────────────────────────
+
 5. NOTES
+
 ───────────────────────────────────────────
+
 
 Internet connection may be required when using NeuroKit2 for the first time.
 Ensure all dataset files are correctly placed inside the data/ folder.
